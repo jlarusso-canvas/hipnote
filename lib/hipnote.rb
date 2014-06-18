@@ -5,12 +5,10 @@ module Hipnote
   @token = ENV['HIPCHAT_API_TOKEN']
   @client = HipChat::Client.new(@token)
 
-  def self.post(options = {})
-    user = options[:user] || 'Message'
-    msg = options[:msg]
+  def self.post(room, msg, options = {})
+    user = options[:user] || 'Note'
     format = options[:format] || 'text'
     color = options[:color] || 'yellow'
-    room = options[:room]
 
     if msg && room
       @client[room].send(
