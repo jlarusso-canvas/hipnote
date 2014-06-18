@@ -1,6 +1,6 @@
 # Hipnote
 
-TODO: Write a gem description
+Post a notification in hipchat
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Make sure you assign `ENV['HIPCHAT_API_TOKEN']`
 
 ## Contributing
 
