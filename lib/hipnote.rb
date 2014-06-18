@@ -6,13 +6,13 @@ module Hipnote
   @client = HipChat::Client.new(@token)
 
   def self.post(room, msg, options = {})
-    user = options[:user] || 'Note'
+    title = options[:title] || 'Note'
     format = options[:format] || 'text'
     color = options[:color] || 'yellow'
 
     if msg && room
       @client[room].send(
-        user,
+        title,
         msg,
         message_format: format,
         color: color
