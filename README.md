@@ -27,8 +27,9 @@ Make sure you set `ENV['HIPCHAT_API_TOKEN']`
 
 ######Examples:  
 `Hipnote.post('project room', 'Deploying now', title: 'Deployment')`  
-`Hipnote.post('technical comms', 'Attention, this is an <strong>alert.</strong>',`  
-`color: 'red', format: 'html')`
+
+    Hipnote.post('technical comms', 'Attention, this is an <strong>alert.</strong>',
+                 color: 'red', format: 'html')`
 
 ## Contributing
 1. Fork it ( https://github.com/[my-github-username]/hipnote/fork )
