@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Make sure you assign `ENV['HIPCHAT_API_TOKEN']`
+Make sure you set `ENV['HIPCHAT_API_TOKEN']`
 
 ## Contributing
 
