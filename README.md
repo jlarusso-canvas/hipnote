@@ -25,9 +25,9 @@ Make sure you set `ENV['HIPCHAT_API_TOKEN']`
 - `color` (color of the pos) Default: 'yellow'
 - `format` (format of the post. 'text' or 'html') Default: 'text'
 
-######Examples:  
-`Hipnote.post('project room', 'Deploying now', title: 'Deployment')`  
+######Examples:
 
+    Hipnote.post('project room', 'Deploying now', title: 'Deployment')
     Hipnote.post('technical comms', 'Attention, this is an <strong>alert.</strong>',
                  color: 'red',
                  format: 'html')
