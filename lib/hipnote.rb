@@ -9,7 +9,7 @@ module Hipnote
     user = options[:user] || 'Message'
     msg = options[:msg]
     format = options[:format] || 'text'
-    color = options[:color] || 'blue'
+    color = options[:color] || 'yellow'
     room = options[:room]
 
     if msg && room
