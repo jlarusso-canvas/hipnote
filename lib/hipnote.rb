@@ -3,7 +3,7 @@ require "hipchat"
 
 module Hipnote
   @token = ENV['HIPCHAT_API_TOKEN']
-  @client = HipChat::Client.new(@api_token)
+  @client = HipChat::Client.new(@token)
 
   def self.post(options = {})
     user = options[:user] || 'Message'
