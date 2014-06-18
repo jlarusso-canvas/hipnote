@@ -23,7 +23,7 @@ Make sure you set `ENV['HIPCHAT_API_TOKEN']`
 - `message (what you want to post)`
 - `title   (title of the post)` Default: 'Note'
 - `color   (color of the post)` Default: 'yellow'
-- `format  (format of the post. 'text' or 'html')` Default: 'text'
+- `format  (format of the post: 'text' or 'html')` Default: 'text'
 
 ######Examples:
 
