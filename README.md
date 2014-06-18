@@ -15,7 +15,9 @@ Or install it yourself as:
     $ gem install hipnote
 
 ## Usage
-Make sure you set `ENV['HIPCHAT_API_TOKEN']`  
+Make sure you set `ENV['HIPCHAT_API_TOKEN']` 
+
+######Interface: 
 `Hipnote.post([room], [message], { title: [title], color: [color], format: [format] })`  
 - `room` (where you want the message to post)
 - `message` (what you want to post)
