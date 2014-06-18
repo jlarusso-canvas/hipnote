@@ -21,9 +21,9 @@ Make sure you set `ENV['HIPCHAT_API_TOKEN']`
 `Hipnote.post([room], [message], { title: [title], color: [color], format: [format] })`  
 - `room    (where you want the message to post)`
 - `message (what you want to post)`
-- `title   (title of the post) Default: 'Note'`
-- `color   (color of the pos) Default: 'yellow'`
-- `format  (format of the post. 'text' or 'html') Default: 'text'`
+- `title   (title of the post)` Default: 'Note'
+- `color   (color of the pos)` Default: 'yellow'
+- `format  (format of the post. 'text' or 'html')` Default: 'text'
 
 ######Examples:
 
